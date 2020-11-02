@@ -3,6 +3,15 @@
    * Colors
    */
   --white: #fff;
+  --green-light: #38b2ac;
+  --grey-100: #f5f6f7;
+
+  /**
+   * Colors var
+   */
+
+  --primary: var(--green-light);
+  --bg-grey: var(--grey-100);
 
   /**
   * Fonts
@@ -19,5 +28,9 @@
   /* Desktop */
 
   /* Big Screen */
+
+  /* Border radius */
+
+  --btn-bdrs: 10px;
 
 }

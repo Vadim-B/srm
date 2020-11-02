@@ -7,9 +7,3 @@
 <script>
 export default {}
 </script>
-
-<style>
-a.--active {
-  border: 1px solid #000;
-}
-</style>

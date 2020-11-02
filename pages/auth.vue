@@ -16,6 +16,7 @@
 <script>
 export default {
   name: 'Auth',
+  layout: 'auth-layout',
   data: () => ({
     authType: 'login',
   }),

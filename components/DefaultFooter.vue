@@ -10,6 +10,8 @@ export default {
 
 <style scoped>
 footer {
+  background-color: var(--primary);
+  color: var(--white);
   text-align: center;
   font-size: 10rem;
 }
