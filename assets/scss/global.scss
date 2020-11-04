@@ -1,13 +1,33 @@
+@import './variables.scss';
+
+html {
+  position: relative;
+  font-size: 10px;
+  word-spacing: 1px;
+  box-sizing: border-box;
+}
+
 .page {
   min-height: 100vh;
 }
 
 main {
   flex-grow: 1;
+  overflow: hidden;
+}
+
+.fluid-contain {
+  width: 100%;
+  padding: 0 12px;
 }
 
 .container {
   margin: 0 auto;
+  width: 100%;
+
+  @media (--xxl) {
+    max-width: 1440px;
+  }
 }
 
 .title {

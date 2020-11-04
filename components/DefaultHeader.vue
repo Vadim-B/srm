@@ -1,9 +1,17 @@
 <template>
   <header>
-    <nuxt-link exact no-prefetch active-class="--active" to="/">Home</nuxt-link>
-    <nuxt-link no-prefetch active-class="--active" to="/about">About</nuxt-link>
-    <nuxt-link no-prefetch active-class="--active" to="/auth">Auth</nuxt-link>
-    <nuxt-link no-prefetch active-class="--active" to="/users">Users</nuxt-link>
+    <nuxt-link exact no-prefetch active-class="--active" class="btn" to="/">
+      Home
+    </nuxt-link>
+    <nuxt-link no-prefetch active-class="--active" class="btn" to="/about">
+      About
+    </nuxt-link>
+    <nuxt-link no-prefetch active-class="--active" class="btn" to="/auth">
+      Auth
+    </nuxt-link>
+    <nuxt-link no-prefetch active-class="--active" to="/users">
+      Users
+    </nuxt-link>
   </header>
 </template>
 
@@ -15,6 +23,8 @@ export default {
 
 <style scoped>
 header {
+  display: flex;
+  justify-content: center;
   background-color: var(--primary);
   color: var(--white);
   text-align: center;
