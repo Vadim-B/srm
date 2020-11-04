@@ -41,3 +41,23 @@
     </div>
   </main>
 </template>
+
+<script>
+import './index.scss'
+
+export default {
+  name: 'Auth',
+  data: () => ({
+    authType: 'signup',
+  }),
+  middleware: 'checkAuth',
+  methods: {
+    showLogin() {
+      this.authType = 'login'
+    },
+    showSignup() {
+      this.authType = 'signup'
+    },
+  },
+}
+</script>
